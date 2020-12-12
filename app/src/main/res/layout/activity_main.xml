@@ -16,14 +16,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="startService"
-            android:text="Button1" />
+            android:text="Start Service" />
+
 
         <Button
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="stopService"
-            android:text="Button2" />
+            android:text="Stop Service" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
