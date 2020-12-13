@@ -19,6 +19,13 @@
             </intent-filter>
         </activity>
         <service android:name=".MyService"></service>
+        <receiver android:name="MyReceiver">
+
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE"></action>
+            </intent-filter>
+
+        </receiver>
     </application>
 
 </manifest>
